@@ -8,5 +8,7 @@
   Gatsby's hello-world starter
 </h1>
 
-##My site with Gatsby
+## My site with Gatsby
+
+Create by Carlos Quintero,This projecto is free to everybody 💕👍🙌.
 
