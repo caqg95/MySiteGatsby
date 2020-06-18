@@ -1,0 +1,35 @@
+{
+    "slug":"other",
+    "title":"Other academic achievements",
+    "description":"Workshops, diplomas and certifications in which they have participated",
+    "education":
+       {
+         "language":
+             {
+                "eng":
+                   {
+                      "items":[
+                         {
+                            "degree":"National Technological Institute",
+                            "name":"Basic English",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Masaya"
+                         }
+                      ]
+                   },
+                "esp":
+                   {
+                      "items":[
+                         {
+                            "degree":"Instituto Nacional Tecnológico ",
+                            "name":"Ingles Básico",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Masaya"
+                         }
+                      ]
+                   }
+             }
+       }
+ }

@@ -1,0 +1,92 @@
+{
+    "slug":"presencial",
+    "title":"Academic training",
+    "description":"Academic training, degrees of study and institutions attended",
+    "education":
+       {
+          "language":
+             {
+                "eng":
+                   {
+                      "items":[
+                         {
+                            "degree":"National University of Engineering",
+                            "name":"Computer Engineering",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"National University of Engineering",
+                            "name":"BD administration with MS SQL Server",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"National University of Engineering",
+                            "name":"TRANSACT-SQL with Microsoft SQL Server",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"National University of Engineering",
+                            "name":"Web programming with ASP.Net MVC5",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"National University of Engineering",
+                            "name":"Computer Technician",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         }
+                      ]
+                   }
+                ,
+                "esp":
+                   {
+                      "items":[
+                         {
+                            "degree":"Universidad Nacional De Ingeniería",
+                            "name":"Ingenieria En Computación",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"Universidad Nacional De Ingeniería",
+                            "name":"Administración de BD con MS SQL Server",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"Universidad Nacional De Ingeniería",
+                            "name":"TRANSACT-SQL con Microsoft SQL Server",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"Universidad Nacional De Ingeniería",
+                            "name":"Programación Web con ASP.Net MVC5",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         },
+                         {
+                            "degree":"Universidad Nacional De Ingeniería",
+                            "name":"Técnico en Computación",
+                            "score":"XX",
+                            "country":"Nicaragua",
+                            "city":"Managua"
+                         }
+                      ]
+                   }    
+             }    
+       }
+ }

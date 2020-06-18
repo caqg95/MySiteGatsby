@@ -1,0 +1,37 @@
+{
+    "slug":"online",
+    "title":"Online",
+    "description":"Online Courses",
+    "education":
+       {
+          "language":
+             {
+                "eng":
+                   {
+                      "items":[
+                         {
+                            "name":"Udemy",
+                            "degree":"Modern Web Design HTML5 CSS3 beginners guide to Website",
+                            "score":"XX",
+                            "country":"XX",
+                            "city":"XX"
+                         }
+                      ]
+                   }
+                ,
+                "esp":
+                   {
+                      "items":[
+                         {
+                            "name":"Udemy",
+                            "degree":"Diseño web moderno HTML5 CSS3 guía para principiantes del sitio web",
+                            "score":"XX",
+                            "country":"XX",
+                            "city":"XX"
+                         }
+                      ]
+                   }
+             }      
+       }
+    
+ }
