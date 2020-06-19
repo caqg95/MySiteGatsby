@@ -7,14 +7,15 @@ const header = () => {
             <div className="container mx-auto p-12 max-w-4xl">
                 <div className="flex justify-center items-center">
                     <div className="flex-1">
-                        <h1 className="font-bold text-purple-700 text-6xl">¡Hi! I'm Carlos Quintero</h1>
+                        <h1 className="font-bold text-purple-700  text-5xl">Welcome! I'm Carlos Quintero</h1>
                         <p className="text-xl text-white font-light">I love to program and learn every day</p>
                     </div>
-                    <img src={ilustration} alt="Hombre seleccionado un elemento de un grid" style={{ height: "300px" }}></img>
+                    <img src={ilustration} alt="Hombre seleccionado un elemento de un grid"
+                        className="w-48 md:w-48 lg:w-96"
+
+                    ></img>
                 </div>
-                <div>
-                    <Form></Form>
-                </div>
+                <Form></Form>
             </div>
         </header>
     );
