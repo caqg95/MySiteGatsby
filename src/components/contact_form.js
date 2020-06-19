@@ -1,7 +1,7 @@
 import React from 'react';
 const contact_form = () => {
     return (
-        <form className="mt-16 text-center">
+        <form className="mt-14 text-center">
             <label 
             htmlFor="contact-content"
             className="block text-gray-700 text-sm font-bold mb-2">Tell me about your idea,that you want to make come true:</label>
