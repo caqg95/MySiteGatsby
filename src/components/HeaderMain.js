@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ilustration from '../imgs/cv.svg';
+import ilustration from '../imgs/curriculum.svg';
 
 const HeaderStyled = styled.div`
 .dark-mode {
@@ -33,7 +33,7 @@ const HeaderMain = ({ setDarkMode, darkMode }) => {
     return (
             <nav className="flex items-center justify-between flex-wrap bg-purple-700 p-2">
                 <div className="flex items-center flex-no-shrink text-white mr-6">
-                    <img src={ilustration} alt="Icon my site"></img>
+                    <img src={ilustration} alt="Icon my site" style={{width:"48px",height:"48px"}}></img>
                     <span className="font-semibold text-xl tracking-tight pl-4">!Your Welcome¡</span>
                 </div>
                 <div className="block lg:hidden">

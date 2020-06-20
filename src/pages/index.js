@@ -1,12 +1,13 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
-
 import HeaderMain from '../components/HeaderMain';
 import Header from '../components/header';
 import Repos from '../components/repos';
 //import CodigoFacilito  from '../components/codifofacilito';
-import EduNav from '../components/education-nav'
+import EduNav from '../components/education-nav';
+import Footer from '../components/Footer';
+
 export default function Home() {
 
   const [darkMode, setDarkMode] = useState(false);
@@ -42,6 +43,7 @@ export default function Home() {
       <Header />
       <EduNav />
       <Repos />
+      <Footer/>
     </AlertProvider>
 
   )

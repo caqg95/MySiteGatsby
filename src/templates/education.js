@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import Footer from '../components/Footer';
+
 const Template = ({ data }) => {
   const { slug, title, description, education } = data.educationJson;
   const items = education.language.eng.items;
@@ -41,6 +43,7 @@ const Template = ({ data }) => {
           ))
         }
       </ul>
+      <Footer/>
     </div>
   );
 }

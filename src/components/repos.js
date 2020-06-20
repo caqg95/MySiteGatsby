@@ -33,7 +33,7 @@ const Repos = () => {
 
     return (
         <div className="max-w-4xl mx-auto mt-12">
-            <header className="text-center">
+            <header className="text-center mb-4">
                 <h2 className="text-3xl font-bold">My work in Open Source</h2>
                 <p>Collaboration and Contribution</p>
             </header>
@@ -46,7 +46,7 @@ const Repos = () => {
                     })
                 }
             </ul>
-            <div className="mt-8 mb-8 text-center">
+            <div className="mt-8 mb-12 text-center">
                 <a
                  href="https://github.com/caqg95"
                  className="btn"
