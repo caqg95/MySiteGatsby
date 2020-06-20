@@ -3,8 +3,8 @@ import { useStaticQuery, graphql,Link } from 'gatsby';
 export default (props) => {
     const data = useStaticQuery(graphql`
     {
-        allEducationJson{
-            edges{
+        allEducationJson(sort:{fields:slug, order:DESC} ) {
+            edges {
                 node{
                     slug
                     title
@@ -14,7 +14,7 @@ export default (props) => {
         }
     }
     `)
-   //console.log(data);
+   //console.log(data.allEducationJson.edges);
     return (
         <div className="max-w-4xl mx-auto mt-20">
             <h2 className="text-3xl font-bold text-center">Know about my educational training</h2>

@@ -11,19 +11,21 @@ const Repos = () => {
         let myRepos;
         //console.log(data);
         if (data) {
-            myRepos = JSON.parse(data);           
+            myRepos = JSON.parse(data);   
+            console.log(myRepos);        
             guardarRepositoriosCount(myRepos.length);
-            myRepos=myRepos.slice(1,13)
+            myRepos=myRepos.slice(0,12);
+            console.log(myRepos);
             return guardarRepositorios(myRepos);
         }
 
         async function fetchRepos() {
-            const response = await fetch("https://api.github.com/users/caqg95/repos");
+            const response = await fetch("https://api.github.com/users/caqg95/repos?sort=created_at&order=desc");
             myRepos = await response.json()
             guardarRepositoriosCount(myRepos.length);
            // console.log('lol');
             sessionStorage.setItem("repositorios", JSON.stringify(myRepos))
-            myRepos=myRepos.slice(1,13)
+            myRepos=myRepos.slice(0,12)
             guardarRepositorios(myRepos);
         }
         fetchRepos();

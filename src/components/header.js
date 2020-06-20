@@ -3,7 +3,7 @@ import ilustration from '../imgs/undraw_healthy_lifestyle_6tyl.svg'
 import Form from './contact_form'
 const header = () => {
     return (
-        <header className="bg-blue-500">
+        <header className="headerInfo">
             <div className="container mx-auto p-12 max-w-4xl">
                 <div className="flex justify-center items-center">
                     <div className="flex-1">

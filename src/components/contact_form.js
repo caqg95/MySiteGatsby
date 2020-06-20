@@ -9,7 +9,9 @@ const contact_form = () => {
                 <textarea 
                 id="contact-content"
                 name="contact-content"
-                className="flex-1 py-2 px-3 text-gray-700 focus:shadow-outline"></textarea>
+                className="flex-1 py-2 px-3 text-gray-700 focus:shadow-outline"
+                placeholder="Remember to add your name and means of contacting you"
+                ></textarea>
                 <button className="btn ml-4">Send</button>
             </div>
 
