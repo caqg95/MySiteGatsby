@@ -46,7 +46,7 @@ const Repos = () => {
                     })
                 }
             </ul>
-            <div className="mt-8 text-center">
+            <div className="mt-8 mb-8 text-center">
                 <a
                  href="https://github.com/caqg95"
                  className="btn"
