@@ -5,19 +5,19 @@ import Footer from '../components/Footer';
 const Template = ({ data }) => {
   const { slug, title, description, education } = data.educationJson;
   const items = education.language.eng.items;
-  console.log(data);
+
   return (
     <div>
       <header className="py-12 border-blue-500 border-solid border-t-8">
-        <div className="max-w-4xl mx-auto">
-          <Link to="/" className="uppercase underline text-pink-500">
+        <div className="max-w-4xl px-4 mx-auto">
+          <Link to="/" className="btn uppercase  text-pink-500">
             Go Home
           </Link>
           <h2 className="capitalize text-6xl font-bold">{title}</h2>
           <p className="text-xl">{description}</p>
         </div>
       </header>
-      <ul>
+      <ul className="px-4">
         {
           items.map((item, index) => (
             (
@@ -25,12 +25,17 @@ const Template = ({ data }) => {
                 <p className="vertical-text">{slug}</p>
                 <div className="flex items-center flex-1 p-8">
                   <div className="flex-1">
-                    <h3>{item.name}</h3>
+                    <h3>
+                      <p className="font-bold text-xl">{item.name}</p>
+                      {
+                        item.country ? <p> {item.city},{item.country} </p> : null
+                      }
+                    </h3>
                     {
                       item.degree && <span className="inline-block p-2 radius bg-purple-100 text-purple-700">{item.degree}</span>
                     }
                     {
-                      item.url && <a href={item.url} className="btn mt-4 inline-block">See more</a>
+                      item.url && <a href={item.url} className="block mt-4 lg:inline-block lg:mt-0 text-pink-700 hover:text-gray-900" target="_blank" rel="nopener noreferrer">See more</a>
                     }
 
                   </div>
@@ -43,7 +48,7 @@ const Template = ({ data }) => {
           ))
         }
       </ul>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
@@ -64,6 +69,7 @@ export const query = graphql`
                   degree
                   name
                   score
+                  url
                 }
               }
             }

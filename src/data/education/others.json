@@ -12,9 +12,9 @@
                          {
                             "degree":"National Technological Institute",
                             "name":"Basic English",
-                            "score":"XX",
                             "country":"Nicaragua",
-                            "city":"Masaya"
+                            "city":"Masaya",
+                            "url":"https://www.tecnacional.edu.ni/"
                          }
                       ]
                    },
@@ -24,9 +24,9 @@
                          {
                             "degree":"Instituto Nacional Tecnológico ",
                             "name":"Ingles Básico",
-                            "score":"XX",
                             "country":"Nicaragua",
-                            "city":"Masaya"
+                            "city":"Masaya",
+                            "url":"https://www.tecnacional.edu.ni/"
                          }
                       ]
                    }

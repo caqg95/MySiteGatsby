@@ -4,7 +4,7 @@ import Form from './contact_form'
 const header = () => {
     return (
         <header className="headerInfo">
-            <div className="container mx-auto p-20 max-w-4xl">
+            <div className="container mx-auto px-20 py-10 max-w-4xl">
                 <div className="flex justify-center items-center">
                     <div className="flex-1">
                         <h1 className="font-bold text-purple-700  text-5xl">Hi! I'm Carlos Quintero</h1>

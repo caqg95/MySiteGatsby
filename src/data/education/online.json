@@ -10,11 +10,9 @@
                    {
                       "items":[
                          {
-                            "name":"Udemy",
-                            "degree":"Modern Web Design HTML5 CSS3 beginners guide to Website",
-                            "score":"XX",
-                            "country":"XX",
-                            "city":"XX"
+                            "name":"Modern Web Design HTML5 CSS3 beginners guide to Website",
+                            "degree":"Udemy",
+                            "url":"https://www.udemy.com/"
                          }
                       ]
                    }
@@ -23,11 +21,9 @@
                    {
                       "items":[
                          {
-                            "name":"Udemy",
-                            "degree":"Diseño web moderno HTML5 CSS3 guía para principiantes del sitio web",
-                            "score":"XX",
-                            "country":"XX",
-                            "city":"XX"
+                           "name":"Modern Web Design HTML5 CSS3 beginners guide to Website",
+                           "degree":"Udemy",
+                           "url":"https://www.udemy.com/"
                          }
                       ]
                    }
